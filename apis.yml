@@ -1,7 +1,16 @@
 aid: homage
 name: Homage
-description: Homage is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Homage is a Singapore-headquartered holistic health and caregiving platform that
+  connects families with screened, professional caregivers, nurses, and therapists
+  to deliver personal care, home nursing procedures, rehabilitation, and health
+  services where people live. Founded in 2016, Homage operates across Singapore,
+  Malaysia, and Australia through consumer mobile apps and a care-management
+  operations platform, offering flexible on-demand and recurring visits, care
+  assessments, custom care plans, and teleconsultations for conditions such as
+  dementia, stroke recovery, and post-surgical care. Homage does not currently
+  publish a public developer API, developer portal, SDKs, or OpenAPI definition;
+  this profile captures its public web properties and probed domain security.
 url: https://raw.githubusercontent.com/api-evangelist/homage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.homage.sg/wp-content/uploads/2021/07/Grandma-with-CarePro-Cropped.jpg
 tags:
 - Company
+- Healthcare
+- Caregiving
+- Home Care
+- Health Services
+- Aged Care
+- Telehealth
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://homage.sg
+  url: https://www.homage.sg
+- type: About
+  url: https://www.homage.sg/about/
+- type: Pricing
+  url: https://www.homage.sg/pricing/
+- type: TermsOfService
+  url: https://www.homage.sg/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.homage.sg/terms-of-use/#privacy-policy
+- type: Support
+  url: https://homage.zendesk.com/hc/en-us
+- type: Blog
+  url: https://www.homage.sg/resources/
+- type: BlogRSS
+  url: https://www.homage.sg/feed/
+- type: SignUp
+  url: https://www.homage.sg/download-app/
+- type: DomainSecurity
+  url: security/homage-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

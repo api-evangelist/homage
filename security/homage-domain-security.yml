@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: homage.sg
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 13 19:46:56 2026 GMT
+  hsts: false
+domains:
+- domain: homage.sg
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
